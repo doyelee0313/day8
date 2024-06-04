@@ -1,0 +1,54 @@
+.btn-outline-success{
+    color: black;
+    border-color: black;
+}
+.btn-outline-success:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+}
+.btn-primary{
+    color: black;
+    border-color: black;
+}
+.container{
+    font-family: "pretendard", "Noto Sans KR", "맑은 고딕", "malgun gothic", "돋움", "dotum", sans-serif;
+    color: #000;
+    line-height: 45px;
+    font-size: 20px;
+}
+footer{
+    background-color: #f8f9fa;
+    color: black;
+}
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+/*second-line 밑에 있는 a에 적용해주세요*/
+.second-line a {
+    color: black;
+    text-decoration: none;
+}
+.third-line{
+    display:none;
+}
+/*부트스랩 기능이 아쉬울때 사용할 수 있음*/
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+@media screen and (max-width:48rem){
+    .third-line{
+        display: block;
+    }
+}
